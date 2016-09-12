@@ -1,0 +1,22 @@
+{
+  "name": "node-mon",
+  "license": "MIT",
+  "version": "1.0.1",
+  "description": "A App mon for nodejs",
+  "author": "jack<wuqingfa@139.com>",
+  "contributors": [
+    { "name": "jackwu", "email": "wuqingfa@139.com", "url": "http://www.139.com/" }, 
+    { "name": "qingfa", "email": "wuqingfa@gmail.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuqingfa/node-mon.git"
+  },
+  "keywords": ["nodejs", "mon"],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "main": "./lib/hello",
+  "scripts": { "test": "vows test/*-test.js --spec" }
+}
